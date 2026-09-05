@@ -1,30 +1,40 @@
-# 🚀 Hazem Alshanawani - Network Engineering Portfolio
+# 🚀 Hazem Alshanawani — Network Engineering Portfolio
 
-Welcome to my technical portfolio! I am an Applied Computer Science student at King Saud University, with a strong focus on Network Infrastructure, Routing Protocols, and Traffic Analysis.
+Applied Computer Science student at King Saud University (Networking Track), focused on network infrastructure, routing protocols, and traffic analysis. Below are 10 hands-on networking labs built with **GNS3**, **VMware**, and **Wireshark**. Each `.zip` file above contains the full technical report (PDF) and Wireshark packet captures (`.pcap`) for that project.
 
-### ⚠️ How to View the Projects
-**Please Note:** The projects in this repository are uploaded as compressed `.zip` files. This was done to keep the full technical documentation (PDFs) and the practical Wireshark packet capture files (`.pcap`) bundled together for each specific project.
+## 📁 Projects
 
-👉 **To review a project:** Simply click on the desired project file from the list above, then click on **"Download raw"** (or the download icon) to extract and view the full reports and capture files on your machine.
+**1. VLAN Implementation & Network Segmentation**
+Built a multi-switch network and split traffic into separate VLANs (10, 20, 30) with 802.1Q trunking. Verified connectivity with Wireshark.
 
----
+**2. Dynamic Routing & OSPF Protocol Analysis**
+Configured an enterprise Cisco router topology using OSPF so routers automatically find the best path. Validated with packet-level SPF analysis.
 
-## 📁 Repository Contents
+**3. DHCP Server Implementations (Enterprise vs. SOHO)**
+Set up automatic IP assignment for both a business-size network and a home-size network, and analyzed the full DHCP DORA process.
 
-Below is a breakdown of the networking and infrastructure projects included in this repository:
+**4. DNS Infrastructure & Name Resolution Analysis**
+Built a domain name system with custom lookup zones and tested live domain resolution (e.g., Google, Gmail) with Wireshark.
 
-* **VLAN Implementation & Network Segmentation:** GNS3, VMware, Wireshark, IEEE 802.1Q.
-* **Dynamic Routing & OSPF Protocol Analysis:** Cisco, GNS3, OSPF, Wireshark.
-* **DHCP Server Implementations (Enterprise vs. SOHO):** VMware, Wireshark, DHCP DORA process.
-* **DNS Infrastructure & Name Resolution Analysis:** VMware, Wireshark, Forward/Reverse Lookup Zones.
-* **VoIP (SIP) Implementation & Call Traffic Analysis:** VMware, SIP signaling, Softphones, Wireshark.
-* **FTP Client-Server Architecture & TCP Segmentation:** VMware, Wireshark, Bulk FTP transmission.
-* **Email Server Architecture (SMTP & POP3):** VMware, SMTP routing, POP3 retrieval, Wireshark.
-* **Network Connectivity & Address Resolution (ARP & ICMP):** VMware, Wireshark, MAC-to-IP mapping.
-* **IP Fragmentation Simulation & Packet Analysis:** GNS3, VMware, Wireshark, MTU configurations.
-* **Remote Access Protocol & Security Analysis:** GNS3, VMware, Telnet, CLI, Security vulnerabilities.
+**5. VoIP (SIP) Implementation & Call Traffic Analysis**
+Deployed an internal calling system using SIP and analyzed how calls are set up and ended at the protocol level.
 
----
+**6. FTP Client-Server Architecture & TCP Segmentation Analysis**
+Tested file transfers between computers and studied how large files are broken into packets (TCP segmentation).
+
+**7. Email Server Architecture & Protocol Analysis (SMTP & POP3)**
+Built a working email server and tracked how messages are sent (SMTP) and retrieved (POP3).
+
+**8. Network Connectivity & Address Resolution Analysis (ARP & ICMP)**
+Studied how devices find each other on a network (ARP) and confirmed reachability using ICMP.
+
+**9. IP Fragmentation Simulation & Packet Analysis**
+Tested what happens to data packets too large to send in one piece, analyzing MTU and fragmentation behavior.
+
+**10. Remote Access Protocol Implementation & Security Analysis (Telnet)**
+Set up remote device access via Telnet and demonstrated why unencrypted connections are a security risk.
+
 ## 📫 Get in Touch
+
 - **Email:** hazemshanawani@gmail.com
 - **LinkedIn:** [Hazem Alshanawani](https://www.linkedin.com/in/hazem-alshanawani-442b0826b)
